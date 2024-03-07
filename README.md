@@ -7,7 +7,6 @@ Systems and Network Consultant based in France 🇫🇷 <br>
 ## 💼 Experience
 
 **Consultant Systems & Network** @ [KALIOP](https://www.kaliop.com/) _(May 2022 - Present)_ <br>
-
 Leading system and network initiatives, specializing in virtualization, deliverability, monitoring, and Linux environments.
   - Infrastructure As Code: Terraform / Ansible
   - Monitoring: Icinga2 / Prometheus Alertmanager / Dynatrace / Newrelic
