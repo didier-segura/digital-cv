@@ -82,7 +82,7 @@ Maintained systems and networks for La Poste Group.
 - **Operating Systems:** Linux (CentOS, Debian, Gentoo), Windows Server 2008 & 2012
 - **Networking:** Juniper, Nortel
 
-## 🌐 Languages
+## 💬 Languages
 
   🇺🇸 **English**: Technical <br>
   🇪🇸 **Spanish**: Basic <br>
