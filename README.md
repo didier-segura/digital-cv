@@ -35,7 +35,7 @@ Engineered and maintained systems for a global advertising marketplace.
   - Infrastructure As Code: Chef, Terraform
 
 **Technical Project Manager** @ [KALIOP](https://www.kaliop.com/) _(Apr 2012 - May 2015)_ <br>
-Led technical projects and initiatives for various clients.
+Lead technical projects and initiatives for various clients.
   - Migration VMware ESX 4 to VMware ESX 5.5
   - Migration of internal messaging to Gmail
   - Integration of open-source solutions based on client needs
@@ -48,13 +48,13 @@ Provided system and network consulting services for various clients.
   - Integration of business applications (Apache Tomcat / JBoss)
   - Administration of Linux servers (CentOS / Debian)
 
-**PoP-Development** @ [PoP-Development](https://www.pop-development.fr) _(Apr 2009 - Apr 2011)_ <br>
-**Systems and Network Engineer**
+**Systems and Network Engineer** @ [PoP-Development](https://www.pop-development.fr) _(Apr 2009 - Apr 2011)_ <br>
+Engineered and maintained systems for B2B business.
   - Administration of over 100 Gentoo Linux servers
   - Management of hosting for high-traffic B2B PHP websites
 
-**DFSIC GROUPE LA POSTE** @ [Groupe La Poste](https://www.lapostegroupe.com) _(Apr 2007 - Mar 2009)_ <br>
-**Systems and Network Administrator**
+**Systems and Network Administrator** @ [Groupe La Poste](https://www.lapostegroupe.com) _(Apr 2007 - Mar 2009)_ <br>
+Maintained systems and networks for La Poste Group.
   - Administration of a fleet of Windows 2008 & 2012 servers
   - Administration of Active Directory (GPO) on a domain of 300 client workstations
   - Administration and monitoring of network equipment (Juniper / Nortel)
@@ -62,10 +62,10 @@ Provided system and network consulting services for various clients.
 
 ## 🚀 Competences
 
-1. **Infrastructure as Code (IaC):** Proficient in using Terraform, Ansible and Chef for automated infrastructure deployment.
-2. **Monitoring and Performance:** Extensive experience in implementing and managing monitoring solutions like Icinga2, Zabbix, Prometheus, and Grafana.
-3. **Cloud Technologies:** Expertise in deploying and managing cloud infrastructure, including AWS Fargate and Kubernetes on various cloud platforms (Scaleway, AWS, GCP, Azure).
-4. **Team Leadership and Project Management:** Proven ability to lead international teams and manage projects efficiently using tools like JIRA.
+- **Infrastructure as Code (IaC):** Proficient in using Terraform, Ansible and Chef for automated infrastructure deployment.
+- **Monitoring and Performance:** Extensive experience in implementing and managing monitoring solutions like Icinga2, Zabbix, Prometheus, and Grafana.
+- **Cloud Technologies:** Expertise in deploying and managing cloud infrastructure, including AWS Fargate and Kubernetes on various cloud platforms (Scaleway, AWS, GCP, Azure).
+- **Team Leadership and Project Management:** Proven ability to lead international teams and manage projects efficiently using tools like JIRA.
 
 ## 🌐 Technologies
 
@@ -92,13 +92,13 @@ Provided system and network consulting services for various clients.
 ## 👨‍🎓 Education
 
 **Master's Degree in Administration, Security, and Networks**<br>
-[Université Montpellier II](https://www.umontpellier.fr/en) | 2006 - 2007
+[Université Montpellier II](https://www.umontpellier.fr/en/) | 2006 - 2007
   - BAC +5 - MASTER 2
 
 **Bachelor's Degree in Computer Science**<br>
-[Université Montpellier II](https://www.umontpellier.fr/en) | 2004 - 2005
+[Université Montpellier II](https://www.umontpellier.fr/en/) | 2004 - 2005
   - BAC +3 - Licence Informatique
 
 **Advanced Technician's Diploma in Telecommunications Engineering**<br>
-[Université Montpellier II](https://www.umontpellier.fr/en) | 2002 - 2004
+[Université Montpellier II](https://www.umontpellier.fr/en/) | 2002 - 2004
   - BAC +2 - DUT Génie des Télécommunications
