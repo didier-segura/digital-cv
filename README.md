@@ -85,9 +85,9 @@ Maintained systems and networks for La Poste Group.
 
 ## 🌐 Languages
 
-🇺🇸 **English**: Technical <br>
-🇪🇸 **Spanish**: Basic <br>
-🇫🇷 **French**: Native
+- 🇺🇸 **English**: Technical <br>
+- 🇪🇸 **Spanish**: Basic <br>
+- 🇫🇷 **French**: Native
 
 ## 👨‍🎓 Education
 
