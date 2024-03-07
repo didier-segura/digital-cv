@@ -85,20 +85,20 @@ Maintained systems and networks for La Poste Group.
 
 ## 🌐 Languages
 
-- 🇺🇸 **English**: Technical <br>
-- 🇪🇸 **Spanish**: Basic <br>
-- 🇫🇷 **French**: Native
+  🇺🇸 **English**: Technical <br>
+  🇪🇸 **Spanish**: Basic <br>
+  🇫🇷 **French**: Native
 
 ## 👨‍🎓 Education
 
-**Master's Degree in Administration, Security, and Networks**<br>
+- **Master's Degree in Administration, Security, and Networks**<br>
 [Université Montpellier II](https://www.umontpellier.fr/en/) | 2006 - 2007
   - BAC +5 - MASTER 2
 
-**Bachelor's Degree in Computer Science**<br>
+- **Bachelor's Degree in Computer Science**<br>
 [Université Montpellier II](https://www.umontpellier.fr/en/) | 2004 - 2005
   - BAC +3 - Licence Informatique
 
-**Advanced Technician's Diploma in Telecommunications Engineering**<br>
+- **Advanced Technician's Diploma in Telecommunications Engineering**<br>
 [Université Montpellier II](https://www.umontpellier.fr/en/) | 2002 - 2004
   - BAC +2 - DUT Génie des Télécommunications
