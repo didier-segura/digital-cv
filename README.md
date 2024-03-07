@@ -100,5 +100,5 @@ Maintained systems and networks for La Poste Group.
   - BAC +3 - Licence Informatique
 
 - **Advanced Technician's Diploma in Telecommunications Engineering**<br>
-[Université Montpellier II](https://www.umontpellier.fr/en/) | 2002 - 2004
+[IUT Valence](https://www.iut-valence.fr/) | 2002 - 2004
   - BAC +2 - DUT Génie des Télécommunications
