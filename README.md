@@ -2,7 +2,7 @@
 
 Systems and Network Consultant based in France 🇫🇷 <br>
 
-[Email](mailto:hello@didier-segura.fr) / [Website](https://www.didier-segura.fr/) / [LinkedIn](https://www.linkedin.com/in/didiersegura/) / [GitHub](https://github.com/didier-segura/)
+[Email](mailto:contact@didier-segura.fr) / [Website](https://www.didier-segura.fr/) / [LinkedIn](https://www.linkedin.com/in/didiersegura/) / [GitHub](https://github.com/didier-segura/)
 
 ## 💼 Experience
 
