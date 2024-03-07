@@ -2,7 +2,7 @@
 
 Systems and Network Consultant based in France 🇫🇷 <br>
 
-[Email](mailto:hello@didier-segura.fr) / [Website](https://www.didier-segura.fr/) / [LinkedIn](https://www.linkedin.com/in/didiersegura/) / [GitHub](https://github.com/didier.segura/)
+[Email](mailto:hello@didier-segura.fr) / [Website](https://www.didier-segura.fr/) / [LinkedIn](https://www.linkedin.com/in/didiersegura/) / [GitHub](https://github.com/didier-segura/)
 
 ## 💼 Experience
 
@@ -48,12 +48,12 @@ Provided system and network consulting services for various clients.
   - Integration of business applications (Apache Tomcat / JBoss)
   - Administration of Linux servers (CentOS / Debian)
 
-**PoP-Development** _(Apr 2009 - Apr 2011)_ <br>
+**PoP-Development** @ [PoP-Development] _(Apr 2009 - Apr 2011)_ <br>
 **Systems and Network Engineer**
   - Administration of over 100 Gentoo Linux servers
   - Management of hosting for high-traffic B2B PHP websites
 
-**DFSIC GROUPE LA POSTE** _(Apr 2007 - Mar 2009)_ <br>
+**DFSIC GROUPE LA POSTE** @ [Groupe La Poste](https://www.lapostegroupe.com) _(Apr 2007 - Mar 2009)_ <br>
 **Systems and Network Administrator**
   - Administration of a fleet of Windows 2008 & 2012 servers
   - Administration of Active Directory (GPO) on a domain of 300 client workstations
@@ -82,7 +82,6 @@ Provided system and network consulting services for various clients.
 - **Web Servers:** Apache, NGiNX, Apache Tomcat, JBoss
 - **Operating Systems:** Linux (CentOS, Debian, Gentoo), Windows Server 2008 & 2012
 - **Networking:** Juniper, Nortel
-
 
 ## 🌐 Languages
 
