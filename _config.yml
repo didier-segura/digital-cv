@@ -1,9 +1,9 @@
 theme: jekyll-theme-minimal
-title: 💼 - Curriculum Vitae 
+title: 💼 - C.V 
 logo: /assets/img/logo.jpg
 description: Digital Curriculum Vitae
 show_downloads: "true"
 github:
-  zip_url: https://didier-segura.github.io/digital-cv/assets/downloads/cv-didier-segura.pdf
+  zip_url: https://www.didier-segura.fr/assets/downloads/cv-didier-segura.pdf
   repository_url: https://github.com/didier-segura
-google_analytics: 
+google_analytics: GTM-5XKV5HMQ

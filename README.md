@@ -79,7 +79,7 @@ Maintained systems and networks for La Poste Group.
 - **Visualization and Dashboarding:** Grafana
 - **Virtualization:** VMware ESX
 - **Web Servers:** Apache, NGiNX, Apache Tomcat, JBoss
-- **Operating Systems:** Linux (CentOS, Debian, Gentoo), Windows Server 2008 & 2012
+- **Operating Systems:** Linux (Alpine, CentOS, Debian, Gentoo), Windows Server 2008 & 2012
 - **Networking:** Juniper, Nortel
 
 ## 💬 Languages
