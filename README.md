@@ -48,7 +48,7 @@ Provided system and network consulting services for various clients.
   - Integration of business applications (Apache Tomcat / JBoss)
   - Administration of Linux servers (CentOS / Debian)
 
-**PoP-Development** @ [PoP-Development] _(Apr 2009 - Apr 2011)_ <br>
+**PoP-Development** @ [PoP-Development](https://www.pop-development.fr) _(Apr 2009 - Apr 2011)_ <br>
 **Systems and Network Engineer**
   - Administration of over 100 Gentoo Linux servers
   - Management of hosting for high-traffic B2B PHP websites
