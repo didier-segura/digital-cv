@@ -6,7 +6,19 @@ Systems and Network Consultant based in France 🇫🇷 <br>
 
 ## 💼 Experience
 
-**Consultant Systems & Network** @ [KALIOP](https://www.kaliop.com/) _(May 2022 - Present)_ <br>
+**Cloud Infrastructure Architect** @ [KALIOP](https://www.kaliop.com/) _(Jan 2025 - Present)_ <br>
+Designing, implementing, and optimizing scalable, secure, and resilient cloud infrastructures across multi-cloud environments.
+  - Definition of cloud architecture standards and best practices
+  - Multi-cloud infrastructure design (AWS, GCP, Azure, Scaleway)
+  - Kubernetes architecture and governance
+  - Advanced Infrastructure as Code: Terraform, Ansible, Packer
+  - Automation of deployments (GitOps, ArgoCD, Helm)
+  - Implementation of cloud security and compliance (PCI-DSS, IAM, network segmentation)
+  - Cost optimization and performance monitoring (Prometheus, Loki, Fluent, Alloy, Grafana)
+  - Technical guidance to DevOps teams
+  - **High-level partnership with Scaleway teams to align infrastructure design, performance, and roadmap with cloud provider capabilities**
+
+**Consultant Systems & Network** @ [KALIOP](https://www.kaliop.com/) _(May 2022 - Dec 2024)_ <br>
 Leading system and network initiatives, specializing in virtualization, deliverability, monitoring, and Linux environments.
   - Infrastructure As Code: Terraform / Ansible
   - Monitoring: Icinga2 / Prometheus Alertmanager / Dynatrace / Newrelic
