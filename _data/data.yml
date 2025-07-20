@@ -168,7 +168,7 @@ certifications:
   title: Certifications
   list:
   - name: Scaleway Pre-Sales Certification
-    start: 2024
+    start: 2025
     end:
     organization: Scaleway
     credentialid:
@@ -183,18 +183,15 @@ skills:
   toolset:
   - name: Terraform, Ansible & Packer
     level: 95%
-  - name: Kubernetes (AWS, GCP, Azure, Scaleway)
+  - name: Kubernetes (AWS, GCP, Azure, Scaleway, OVHCloud)
     level: 90%
-  - name: Prometheus, Grafana, Loki, Alloy
+  - name: Prometheus, Grafana, Loki, Alloy, Thanos
     level: 90%
   - name: ArgoCD & Helm (GitOps)
-    level: 85%
+    level: 90%
   - name: Chef, Puppet
-    level: 80%
+    level: 90%
   - name: Cloud Security & Compliance (PCI-DSS, IAM)
     level: 85%
   - name: Linux & Networking (Juniper, Nortel)
-    level: 85%
-
-footer: >
-  Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    level: 90%
