@@ -171,13 +171,15 @@ p {
   }
 }
 
-/* Customers section (logos under Interests) */
+/* Customers section (2 logos per row, all devices) */
 .customers-container {
   padding: 30px;
+  width: 100%;
+  box-sizing: border-box;
 
   .customers-logos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Force 2 per row */
+    grid-template-columns: repeat(2, 1fr); /* Always 2 per row */
     gap: 12px;
     margin: 0;
     padding: 0;
@@ -192,9 +194,9 @@ p {
     background: #fff;
     border-radius: 6px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    width: 100%;          /* Force to fill column width */
-    max-width: 120px;      /* Keep consistent width */
-    height: 70px;          /* Fixed height so rows align */
+    width: 100%;
+    max-width: 140px;  /* Fixed width per logo box */
+    height: 70px;
     padding: 8px;
   }
 
@@ -202,7 +204,6 @@ p {
     max-height: 40px;
     max-width: 100%;
     width: auto;
-    height: auto;
     object-fit: contain;
     opacity: 0.85;
     transition: opacity 0.2s ease, transform 0.2s ease;
@@ -214,23 +215,6 @@ p {
   }
 }
 
-/* Adjust for very small devices */
-@media (max-width: 480px) {
-  .customers-container .customers-logos {
-    grid-template-columns: repeat(2, 1fr); /* Still 2 per row */
-    gap: 8px;
-  }
-
-  .customers-container .customers-logos li {
-    max-width: 100px;  /* Shrink the boxes */
-    height: 60px;
-    padding: 6px;
-  }
-
-  .customers-container .customer-logo-small {
-    max-height: 30px;
-  }
-}
 
 /* Main content */
 .main-wrapper {
