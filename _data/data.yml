@@ -200,6 +200,31 @@ experiences:
         - Built **PHP/MySQL intranet portals** for user management  
         - Designed **network monitoring** with **Nortel & Cisco** (NAP/802.1x)
 
+  - role: IT Support Technician
+    time: Jan 2006 - Sept 2006
+    company: CROUS Montpellier, France
+    logo: crous-logo.png
+    details: |
+      Provided **IT support** for studends and staff at **CROUS Montpellier**.  
+        - Assisted with **hardware/software troubleshooting** 
+        - Managed **network connectivity issues** for student residences with fiber and Wi-Fi on RENATER network
+        - Supported **Windows XP/7, Linux, and Mac OS X** environments
+        - Phone support for **email, internet, and software applications**
+
+  - role: Network & Systems Technician
+    time: June 2005 - Aug 2005
+    company: Euro Réseau, France
+    logo: euroreseau-logo.png
+    details: |
+      Contributed to **telecommunications and IT infrastructure projects** while completing studies.  
+        - Deployed and configured **switches and routers** for corporate clients  
+        - Assisted with **LAN/WAN design, cabling, and troubleshooting**  
+        - Supported **Windows Server and Linux-based networks** for SMEs
+        - Administered Windows 2003 servers and configured **Active Directory** for user management  
+        - Helped implement **firewalling, VLANs, and access policies** for small-to-medium infrastructures
+        - Deployed NetASQ firewalls and configured **VPNs** for secure remote access
+
+
 certifications:
   title: Certifications
   list:
