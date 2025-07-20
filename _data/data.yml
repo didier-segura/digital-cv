@@ -55,7 +55,7 @@ sidebar:
       link:
 
 career-profile:
-  title: Career Profile
+  title: '<i class="fas fa-user-tie"></i> Career Profile'
   summary: |
     
     Cloud Infrastructure Architect with extensive experience in:
@@ -77,7 +77,7 @@ career-profile:
     cloud provider capabilities.
 
 education:
-  title: Education
+  title: '<i class="fas fa-graduation-cap"></i> Education'
   info:
   - degree: Master's Degree in Administration, Security, and Networks
     university: Université Montpellier II
@@ -98,7 +98,7 @@ education:
       BAC +2 (DUT). Focus on networking, telecom systems, and IT infrastructure.
 
 experiences:
-  title: Experiences
+  title: '<i class="fas fa-briefcase"></i> Experiences'
   info:
   - role: Cloud Infrastructure Architect
     time: Jan 2025 - Present
@@ -226,7 +226,7 @@ experiences:
 
 
 certifications:
-  title: Certifications
+  title: '<i class="fas fa-certificate"></i> Certifications'
   list:
   - name: Scaleway Pre-Sales Certification
     logo: scaleway-certification.png
@@ -241,7 +241,7 @@ certifications:
       and aligning cloud architecture and performance with client requirements.
 
 publications:
-  title: Speaking Engagements & Webinars
+  title: '<i class="fas fa-microphone"></i> Speaking Engagements & Webinars'
   papers:
   - title: Kaliop Webinars (2023–2025)
     logo: kaliop-logo.png
@@ -260,7 +260,7 @@ publications:
       architecture choices, performance tuning, and cost optimization.
 
 skills:
-  title: Skills & Proficiency
+  title: '<i class="fas fa-wrench"></i> Skills & Proficiency'
   toolset:
   - name: Terraform, Ansible & Packer
     level: 95%
