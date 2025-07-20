@@ -19,7 +19,12 @@
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <div class="company">{{ experience.company }}</div>
+      <div class="company">
+        {% if experience.logo %}
+          <img src="{{ '/assets/img/' | append: experience.logo }}" alt="{{ experience.company }}" style="height:30px; vertical-align:middle; margin-right:8px;">
+        {% endif %}
+        {{ experience.company }}
+      </div>
 
     </div><!--//meta-->
 

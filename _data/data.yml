@@ -169,8 +169,9 @@ experiences:
   - role: Systems and Network Administrator
     time: Apr 2007 - Mar 2009
     company: Groupe La Poste, France
+    logo: laposte-logo.png
     details: |
-      Administered systems and network equipment.
+      Administered Windows Server and Active Directory environments, managing over 300 workstations and core network infrastructure.
         - Windows Server 2008/2012 and Active Directory (300+ workstations)
         - Managed Juniper and Nortel networking equipment
 
