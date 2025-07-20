@@ -58,7 +58,7 @@ career-profile:
   title: Career Profile
   summary: |
     
-    Systems and Network Consultant with extensive experience in:
+    Cloud Infrastructure Architect with extensive experience in:
 
       • Designing, implementing, and optimizing **scalable, secure, and resilient**
         infrastructures across multi-cloud environments (AWS, GCP, Azure, Scaleway).
@@ -196,6 +196,25 @@ certifications:
     details: |
       Certification focused on Scaleway cloud solutions, pre-sales expertise,
       and aligning cloud architecture and performance with client requirements.
+
+publications:
+  title: Speaking Engagements & Webinars
+  list:
+  - name: Kaliop Webinars (2023–2025)
+    logo: kaliop-logo.png
+    details: |
+      Regular speaker in Kaliop webinars focused on **Kubernetes governance, GitOps practices, and multi-cloud strategies**.
+  - name: DevOpsRex 2024
+    logo: devopsrex-logo.png
+    details: |
+      Speaker on **"Composable / JamStack dans Kubernetes : Optimisation des Coûts et Performance"**  
+      at the DevOpsRex conference in Paris.
+  - name: KubeCon 2024
+    logo: kubecon-logo.png
+    details: |
+      Participated at the **Scaleway booth** during KubeCon Europe 2024 to discuss  
+      **ADEME’s migration to the Scaleway Kapsule Kubernetes platform**, focusing on  
+      **architecture choices, performance tuning, and cost optimization**.
 
 skills:
   title: Skills & Proficiency
