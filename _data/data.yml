@@ -35,7 +35,7 @@ sidebar:
   pdf:
 
   languages:
-    title: Languages
+    title: '<i class="fas fa-language"></i> Languages'
     info:
     - idiom: English
       level: Technical
@@ -45,7 +45,7 @@ sidebar:
       level: Basic
 
   interests:
-    title: Interests
+    title: '<i class="fas fa-lightbulb"></i> Interests'
     info:
     - item: Cloud Architecture
       link:
@@ -55,7 +55,7 @@ sidebar:
       link:
 
 career-profile:
-  title: '<i class="fas fa-user-tie"></i> Career Profile'
+  title: Career Profile
   summary: |
     
     Cloud Infrastructure Architect with extensive experience in:
@@ -98,7 +98,7 @@ education:
       BAC +2 (DUT). Focus on networking, telecom systems, and IT infrastructure.
 
 experiences:
-  title: '<i class="fas fa-briefcase"></i> Experiences'
+  title: Experiences
   info:
   - role: Cloud Infrastructure Architect
     time: Jan 2025 - Present
@@ -226,7 +226,7 @@ experiences:
 
 
 certifications:
-  title: '<i class="fas fa-certificate"></i> Certifications'
+  title: Certifications
   list:
   - name: Scaleway Pre-Sales Certification
     logo: scaleway-certification.png
@@ -241,7 +241,7 @@ certifications:
       and aligning cloud architecture and performance with client requirements.
 
 publications:
-  title: '<i class="fas fa-microphone"></i> Speaking Engagements & Webinars'
+  title: Speaking Engagements & Webinars
   papers:
   - title: Kaliop Webinars (2023–2025)
     logo: kaliop-logo.png
@@ -260,7 +260,7 @@ publications:
       architecture choices, performance tuning, and cost optimization.
 
 skills:
-  title: '<i class="fas fa-wrench"></i> Skills & Proficiency'
+  title: Skills & Proficiency
   toolset:
   - name: Terraform, Ansible & Packer
     level: 95%
