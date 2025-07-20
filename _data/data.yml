@@ -184,9 +184,9 @@ experiences:
 
 certifications:
   title: Certifications
-  logo: scaleway-certification.png
   list:
   - name: Scaleway Pre-Sales Certification
+    logo: scaleway-certification.png
     start: 2025
     end:
     organization: Scaleway
