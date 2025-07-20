@@ -196,16 +196,21 @@ p {
     }
   }
 
-  /* Updated to handle logo placement before job title */
+  /* Flex row for logo + job title + time */
   .upper-row {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     margin-bottom: 2px;
+    min-height: 24px; /* Avoid collapsing if logos are tiny */
   }
 
+  /* Proper scaling for logos */
   .company-logo {
-    height: 28px;
+    max-height: 20px;     /* Limit vertical size */
+    max-width: 60px;      /* Prevent very wide logos */
+    object-fit: contain;  /* Keep proportions intact */
+    margin-right: 8px;
     flex-shrink: 0;
   }
 
@@ -218,7 +223,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
-    flex: 1;
+    flex: 1; /* Take remaining space */
   }
 
   .time,
@@ -238,7 +243,9 @@ p {
 
     img.company-logo,
     img.cert-logo {
-      height: 20px;
+      max-height: 20px;
+      max-width: 60px;
+      object-fit: contain;
       margin-right: 8px;
       vertical-align: middle;
     }
