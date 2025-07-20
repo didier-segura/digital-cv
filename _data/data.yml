@@ -222,12 +222,12 @@ publications:
     logo: kaliop-logo.png
     details: |
       Regular speaker in Kaliop webinars focused on **Kubernetes governance, GitOps practices, and multi-cloud strategies**.
-  - title: DevOpsRex 2024
+  - title: Open Source Experience, 4 December 2024
     logo: devopsrex-logo.png
     details: |
-      Speaker on **"Composable / JamStack dans Kubernetes : Optimisation des Coûts et Performance"**  
-      at the DevOpsRex conference in Paris.
-  - title: KubeCon 2024
+      Speaker on **"Composable / JamStack in Kubernetes: Cost Optimization and Performance"**  
+      at the Open Source Experience conference in Paris.
+  - title: KubeCon, 20 March 2024
     logo: kubecon-logo.png
     details: |
       Participated at the **Scaleway booth** during KubeCon Europe 2024 to discuss  
