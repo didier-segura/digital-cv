@@ -9,7 +9,7 @@
   <ul class="list-unstyled customers-logos">
     {% for customer in customers.info %}
     <li>
-      <img src="{{ '/assets/img/customers' | append: customer.logo }}" alt="{{ customer.name }}" class="customer-logo-small">
+      <img src="{{ '/assets/img/customers/' | append: customer.logo }}" alt="{{ customer.name }}" class="customer-logo-small">
     </li>
     {% endfor %}
   </ul>
