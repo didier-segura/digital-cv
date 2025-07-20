@@ -16,7 +16,7 @@ sidebar:
   email: contact@didier-segura.fr
   phone:
   timezone: Europe/Paris
-  citizenship: France
+  citizenship: Montpellier, France
   website: https://www.didier-segura.fr/
   linkedin: didiersegura
   xing:
@@ -32,7 +32,7 @@ sidebar:
   mastodon:
   hackerrank:
   leetcode:
-  pdf:
+  pdf: https://www.didier-segura.fr/assets/downloads/cv-didier-segura.pdf
 
   languages:
     title: '<i class="fas fa-language"></i> Languages'
