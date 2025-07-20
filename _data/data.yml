@@ -9,7 +9,7 @@ sidebar:
 
   # Profile information
   name: Didier SEGURA
-  tagline: Cloud Infrastructure Architect
+  tagline: **Cloud Infrastructure Architect**
   avatar: profile.png
 
   # Sidebar links
@@ -37,40 +37,40 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: **English**
       level: Technical
-    - idiom: French
+    - idiom: **French**
       level: Native
-    - idiom: Spanish
+    - idiom: **Spanish**
       level: Basic
 
   interests:
     title: Interests
     info:
-    - item: Cloud Architecture
+    - item: **Cloud Architecture**
       link:
-    - item: Kubernetes & IaC
+    - item: **Kubernetes & IaC**
       link:
-    - item: Monitoring & Automation
+    - item: **Monitoring & Automation**
       link:
 
 career-profile:
   title: Career Profile
   summary: |
     
-    Cloud Infrastructure Architect with extensive experience in:
+    **Cloud Infrastructure Architect** with extensive experience in:
 
       • Designing, implementing, and optimizing **scalable, secure, and resilient**
-        infrastructures across multi-cloud environments (AWS, GCP, Azure, Scaleway).
+        infrastructures across **multi-cloud environments** (**AWS, GCP, Azure, Scaleway**).
 
       • Expertise in **Kubernetes architecture**, **Infrastructure as Code**
-        (Terraform, Ansible, Packer), and **GitOps workflows** (ArgoCD, Helm).
+        (**Terraform, Ansible, Packer**), and **GitOps workflows** (**ArgoCD, Helm**).
 
       • Strong focus on **monitoring and observability**
-        (Prometheus, Grafana, Loki, Alloy).
+        (**Prometheus, Grafana, Loki, Alloy**).
 
       • In-depth knowledge of **cloud security and compliance**
-        (PCI-DSS, IAM, network segmentation).
+        (**PCI-DSS, IAM, network segmentation**).
 
     Provides **technical leadership** to DevOps teams and collaborates closely
     with **Scaleway** to align architecture, performance, and roadmaps with
@@ -79,157 +79,157 @@ career-profile:
 education:
   title: Education
   info:
-  - degree: Master's Degree in Administration, Security, and Networks
+  - degree: **Master's Degree in Administration, Security, and Networks**
     university: Université Montpellier II
     time: 2006 - 2007
     details: |
-      BAC +5 (Master 2). Specialized in administration, security, and
-      networks with a focus on enterprise-grade systems and IT architecture.
-  - degree: Bachelor's Degree in Computer Science
+      **BAC +5 (Master 2)**. Specialized in **administration, security, and
+      networks** with a focus on **enterprise-grade systems and IT architecture**.
+  - degree: **Bachelor's Degree in Computer Science**
     university: Université Montpellier II
     time: 2004 - 2005
     details: |
-      BAC +3 (Licence Informatique). Focused on software and systems
-      engineering, distributed systems, and programming.
-  - degree: Advanced Technician's Diploma in Telecommunications Engineering
+      **BAC +3 (Licence Informatique)**. Focused on **software and systems
+      engineering**, **distributed systems**, and **programming**.
+  - degree: **Advanced Technician's Diploma in Telecommunications Engineering**
     university: IUT Valence
     time: 2002 - 2004
     details: |
-      BAC +2 (DUT). Focus on networking, telecom systems, and IT infrastructure.
+      **BAC +2 (DUT)**. Focus on **networking**, **telecom systems**, and **IT infrastructure**.
 
 experiences:
   title: Experiences
   info:
-  - role: Cloud Infrastructure Architect
+  - role: **Cloud Infrastructure Architect**
     time: Jan 2025 - Present
-    company: Kaliop, France
+    company: **Kaliop, France**
     logo: kaliop-logo.png
     details: |
-      Designing and optimizing scalable multi-cloud infrastructures (AWS, GCP, Azure, Scaleway).
-        - Defining architecture standards and best practices
-        - Designing Kubernetes clusters with governance
-        - Advanced IaC (Terraform, Ansible, Packer)
-        - Automating deployments (GitOps, ArgoCD, Helm)
-        - Implementing security and compliance (PCI-DSS, IAM)
-        - Cost optimization and performance monitoring (Prometheus, Loki, Grafana, Alloy)
-        - Collaborating with Scaleway for infrastructure optimization
-  - role: Consultant Systems & Network
+      Designing and optimizing **scalable multi-cloud infrastructures** (**AWS, GCP, Azure, Scaleway**).
+        - Defining **architecture standards and best practices**
+        - Designing **Kubernetes clusters** with **governance**
+        - Advanced **IaC** (**Terraform, Ansible, Packer**)
+        - Automating deployments (**GitOps, ArgoCD, Helm**)
+        - Implementing **security and compliance** (**PCI-DSS, IAM**)
+        - **Cost optimization** and **performance monitoring** (**Prometheus, Loki, Grafana, Alloy**)
+        - Collaborating with **Scaleway** for **infrastructure optimization**
+  - role: **Consultant Systems & Network**
     time: May 2022 - Dec 2024
-    company: Kaliop, France
+    company: **Kaliop, France**
     logo: kaliop-logo.png
     details: |
-      Leading initiatives in virtualization, monitoring, and Linux/cloud infrastructure.
-        - Infrastructure as Code with Terraform & Ansible
-        - Monitoring with Icinga2, Prometheus, Dynatrace, Newrelic
-        - Kubernetes cluster deployment across AWS, GCP, Azure, Scaleway
-        - Application deployments via ArgoCD and Helm
-        - Building Docker images and AMIs via Packer
-  - role: Infrastructure & Network Manager
+      Leading initiatives in **virtualization, monitoring, and Linux/cloud infrastructure**.
+        - **Infrastructure as Code** with **Terraform & Ansible**
+        - Monitoring with **Icinga2, Prometheus, Dynatrace, Newrelic**
+        - **Kubernetes cluster deployment** across **AWS, GCP, Azure, Scaleway**
+        - Application deployments via **ArgoCD and Helm**
+        - Building **Docker images and AMIs** via **Packer**
+  - role: **Infrastructure & Network Manager**
     time: Jun 2017 - Apr 2022
-    company: Eleawave, France
+    company: **Eleawave, France**
     logo: eleawave-logo.png
     details: |
-      Managed infrastructure operations, migrations, and compliance.
-        - Migrated platforms to Openstack (OVH Public Cloud)
-        - Ensured PCI-DSS compliance (3.2.1)
-        - Email deliverability expertise (DMARC, DKIM, SPF, S/MIME)
-        - Monitoring via Zabbix, ELK, Prometheus, Grafana
-        - IaC with Chef, Ansible, Packer, Terraform
-        - Led teams and projects (JIRA)
-  - role: Systems Engineer
+      Managed **infrastructure operations, migrations, and compliance**.
+        - Migrated platforms to **Openstack (OVH Public Cloud)**
+        - Ensured **PCI-DSS compliance (3.2.1)**
+        - Email deliverability expertise (**DMARC, DKIM, SPF, S/MIME**)
+        - Monitoring via **Zabbix, ELK, Prometheus, Grafana**
+        - IaC with **Chef, Ansible, Packer, Terraform**
+        - Led teams and projects (**JIRA**)
+  - role: **Systems Engineer**
     time: Jun 2015 - Jun 2017
-    company: Teads, France
+    company: **Teads, France**
     logo: teads-logo.png
     details: |
-      Engineered systems for a global ad platform under AWS.
-        - Infrastructure deployment (EC2, ELB, RDS, VPN)
-        - Jenkins & Rundeck automation
-        - Managed Cassandra and AWS services (Route53, ElastiCache)
-        - Monitoring with Zabbix, Grafana, Graphite
-        - IaC using Chef, Terraform
-  - role: Technical Project Manager
+      Engineered systems for a **global ad platform** under **AWS**.
+        - Infrastructure deployment (**EC2, ELB, RDS, VPN**)
+        - **Jenkins & Rundeck automation**
+        - Managed **Cassandra** and **AWS services** (**Route53, ElastiCache**)
+        - Monitoring with **Zabbix, Grafana, Graphite**
+        - IaC using **Chef, Terraform**
+  - role: **Technical Project Manager**
     time: Apr 2012 - May 2015
-    company: Kaliop, France
+    company: **Kaliop, France**
     logo: kaliop-logo.png
     details: |
-      Led infrastructure projects and migrations.
-        - VMware ESX migrations
-        - Email migration to Gmail
-        - Automation with Puppet
-        - MySQL audits and performance tuning
-  - role: Technical Consultant
+      Led **infrastructure projects and migrations**.
+        - **VMware ESX migrations**
+        - Email migration to **Gmail**
+        - Automation with **Puppet**
+        - **MySQL audits and performance tuning**
+  - role: **Technical Consultant**
     time: Apr 2011 - Feb 2012
-    company: KeepCore, France
+    company: **KeepCore, France**
     logo: keepcore-logo.png
     details: |
-      Provided consulting for Linux and enterprise applications.
-        - Integrated Apache Tomcat & JBoss solutions
-        - Administered CentOS and Debian servers
-  - role: Systems and Network Engineer
+      Provided **consulting** for **Linux** and **enterprise applications**.
+        - Integrated **Apache Tomcat & JBoss solutions**
+        - Administered **CentOS and Debian servers**
+  - role: **Systems and Network Engineer**
     time: Apr 2009 - Apr 2011
-    company: PoP-Development, France
+    company: **PoP-Development, France**
     logo: pop-development-logo.png
     details: |
-      Managed large-scale Linux infrastructure.
-        - Administered 100+ Gentoo Linux servers
-        - Managed high-traffic PHP website hosting
-  - role: Systems and Network Administrator
+      Managed **large-scale Linux infrastructure**.
+        - Administered **100+ Gentoo Linux servers**
+        - Managed **high-traffic PHP website hosting**
+  - role: **Systems and Network Administrator**
     time: Apr 2007 - Mar 2009
-    company: Groupe La Poste, France
+    company: **Groupe La Poste, France**
     logo: laposte-logo.png
     details: |
-      Administered Windows Server and Active Directory environments, managing over 300 workstations and core network infrastructure.
-        - Windows Server 2008/2012 and Active Directory (300+ workstations)
-        - Managed Juniper and Nortel networking equipment
+      Administered **Windows Server and Active Directory environments**, managing **300+ workstations** and **network infrastructure**.
+        - **Windows Server 2008/2012 and Active Directory**
+        - Managed **Juniper and Nortel networking equipment**
 
 certifications:
   title: Certifications
   list:
-  - name: Scaleway Pre-Sales Certification
+  - name: **Scaleway Pre-Sales Certification**
     logo: scaleway-certification.png
     start: 2025
     end:
-    organization: Scaleway
+    organization: **Scaleway**
     credentialid:
     credentialurl:
-    credentialname: Scaleway
+    credentialname: **Scaleway**
     details: |
-      Certification focused on Scaleway cloud solutions, pre-sales expertise,
-      and aligning cloud architecture and performance with client requirements.
+      Certification focused on **Scaleway cloud solutions**, **pre-sales expertise**,
+      and aligning **cloud architecture** and **performance** with **client requirements**.
 
 publications:
   title: Speaking Engagements & Webinars
-  list:
-  - name: Kaliop Webinars (2023–2025)
+  papers:
+  - title: **Kaliop Webinars (2023–2025)**
     logo: kaliop-logo.png
     details: |
-      Regular speaker in Kaliop webinars focused on **Kubernetes governance, GitOps practices, and multi-cloud strategies**.
-  - name: DevOpsRex 2024
+      Regular speaker in **Kaliop webinars** focused on **Kubernetes governance, GitOps practices, and multi-cloud strategies**.
+  - title: **DevOpsRex 2024**
     logo: devopsrex-logo.png
     details: |
       Speaker on **"Composable / JamStack dans Kubernetes : Optimisation des Coûts et Performance"**  
-      at the DevOpsRex conference in Paris.
-  - name: KubeCon 2024
+      at the **DevOpsRex conference in Paris**.
+  - title: **KubeCon 2024**
     logo: kubecon-logo.png
     details: |
-      Participated at the **Scaleway booth** during KubeCon Europe 2024 to discuss  
+      Participated at the **Scaleway booth** during **KubeCon Europe 2024** to discuss  
       **ADEME’s migration to the Scaleway Kapsule Kubernetes platform**, focusing on  
       **architecture choices, performance tuning, and cost optimization**.
 
 skills:
   title: Skills & Proficiency
   toolset:
-  - name: Terraform, Ansible & Packer
+  - name: **Terraform, Ansible & Packer**
     level: 95%
-  - name: Kubernetes (AWS, GCP, Azure, Scaleway, OVHCloud)
+  - name: **Kubernetes (AWS, GCP, Azure, Scaleway, OVHCloud)**
     level: 85%
-  - name: Prometheus, Grafana, Loki, Alloy, Thanos
+  - name: **Prometheus, Grafana, Loki, Alloy, Thanos**
     level: 90%
-  - name: ArgoCD & Helm (GitOps)
+  - name: **ArgoCD & Helm (GitOps)**
     level: 95%
-  - name: Chef, Puppet
+  - name: **Chef, Puppet**
     level: 85%
-  - name: Cloud Security & Compliance (PCI-DSS, IAM)
+  - name: **Cloud Security & Compliance (PCI-DSS, IAM)**
     level: 85%
-  - name: Linux & Networking
+  - name: **Linux & Networking**
     level: 90%
