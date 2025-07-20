@@ -57,14 +57,24 @@ sidebar:
 career-profile:
   title: Career Profile
   summary: |
-    Systems and Network Consultant with extensive experience in designing,
-    implementing, and optimizing scalable, secure, and resilient infrastructures
-    across multi-cloud environments (AWS, GCP, Azure, Scaleway). Expert in
-    Kubernetes architecture, Infrastructure as Code (Terraform, Ansible, Packer),
-    GitOps (ArgoCD, Helm), monitoring (Prometheus, Grafana, Loki, Alloy),
-    and cloud security/compliance (PCI-DSS, IAM, network segmentation). Provides
-    technical leadership and collaborates with Scaleway to align architecture
-    and performance with provider capabilities.
+    
+    Systems and Network Consultant with extensive experience in:
+
+      • Designing, implementing, and optimizing **scalable, secure, and resilient**
+        infrastructures across multi-cloud environments (AWS, GCP, Azure, Scaleway).
+
+      • Expertise in **Kubernetes architecture**, **Infrastructure as Code**
+        (Terraform, Ansible, Packer), and **GitOps workflows** (ArgoCD, Helm).
+
+      • Strong focus on **monitoring and observability**
+        (Prometheus, Grafana, Loki, Alloy).
+
+      • In-depth knowledge of **cloud security and compliance**
+        (PCI-DSS, IAM, network segmentation).
+
+    Provides **technical leadership** to DevOps teams and collaborates closely
+    with **Scaleway** to align architecture, performance, and roadmaps with
+    cloud provider capabilities.
 
 education:
   title: Education
