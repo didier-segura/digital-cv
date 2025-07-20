@@ -1,4 +1,4 @@
-/* ======= Base ======= */
+/* ======= Base Styles ======= */
 body {
   font-family: "Roboto", sans-serif;
   color: $text-color-secondary;
@@ -9,12 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
@@ -49,9 +44,7 @@ p {
   background: $theme-color;
   color: #fff;
 
-  a {
-    color: #fff;
-  }
+  a { color: #fff; }
 
   .profile-container {
     padding: 30px;
@@ -71,100 +64,53 @@ p {
     color: rgba(256, 256, 256, 0.6);
     font-size: 16px;
     font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  .profile {
-    margin-bottom: 15px;
+    margin: 0;
   }
 
   .avatar {
     max-width: 100px;
     margin-bottom: 15px;
-    border: 0px solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
 
   .contact-list {
-    .fas,
-    .fab,
-    .far {
+    .fas, .fab, .far {
       margin-right: 5px;
       font-size: 18px;
       vertical-align: middle;
     }
     li {
       margin-bottom: 15px;
-      &:last-child {
-        margin-bottom: 0;
-      }
+      &:last-child { margin-bottom: 0; }
     }
   }
 
-  .container-block {
-    padding: 30px;
-  }
+  .container-block { padding: 30px; }
 
   .container-block-title {
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
-    margin-top: 0;
-    margin-bottom: 15px;
+    margin: 0 0 15px;
   }
 
   .degree {
     font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 5px;
+    margin: 0 0 5px;
   }
 
   .education-container {
-    .item {
-      margin-bottom: 15px;
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-    .meta {
-      color: rgba(256, 256, 256, 0.6);
-      font-weight: 500;
-      margin-bottom: 0px;
-      margin-top: 0;
-    }
-    .time {
-      color: rgba(256, 256, 256, 0.6);
-      font-weight: 500;
-      margin-bottom: 0px;
-    }
+    .item { margin-bottom: 15px; &:last-child { margin-bottom: 0; } }
+    .meta, .time { color: rgba(256,256,256,0.6); font-weight: 500; margin: 0; }
   }
 
-  .languages-container {
-    .lang-desc {
-      color: rgba(256, 256, 256, 0.6);
-    }
-  }
+  .languages-container .lang-desc { color: rgba(256,256,256,0.6); }
 
-  .languages-list {
-    margin-bottom: 0;
-    li {
-      margin-bottom: 10px;
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
-  }
-
-  .interests-list {
-    margin-bottom: 0;
-    li {
-      margin-bottom: 10px;
-      &:last-child {
-        margin-bottom: 0;
-      }
-    }
+  .languages-list li,
+  .interests-list li {
+    margin-bottom: 10px;
+    &:last-child { margin-bottom: 0; }
   }
 }
 
@@ -180,153 +126,86 @@ p {
     font-weight: 500;
     color: darken($theme-color, 15%);
     position: relative;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
   }
 
-  .section {
-    margin-bottom: 60px;
+  .section { margin-bottom: 60px; }
+
+  .experiences-section, .recommendations-section, .educations-section {
+    .item { margin-bottom: 30px; }
   }
 
-  .experiences-section,
-  .recommendations-section,
-  .educations-section {
-    .item {
-      margin-bottom: 30px;
+  /* Logo Wrapper + Scaling */
+  .company-logo-wrapper {
+    text-align: left;
+    margin-bottom: 8px;
+
+    .company-logo {
+      display: block;
+      max-width: 120px;
+      max-height: 28px;
+      width: auto;
+      height: auto;
+      object-fit: contain;
     }
   }
 
-  /* Logo, title, and time row */
+  /* Job title row */
   .upper-row {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 6px;
-    margin-bottom: 2px;
-    min-height: 22px;
+    margin-bottom: 4px;
+    flex-wrap: nowrap;
   }
 
-  /* Flexible logo sizing (desktop defaults) */
-  .company-logo,
-  .cert-logo {
-    height: auto;
-    width: auto;
-    max-height: 16px;
-    max-width: 40px;
-    object-fit: contain;
-    margin-right: 6px;
-    flex-shrink: 0;
-  }
-
-  .job-title,
-  .degree,
-  .cert-title,
-  .recommendation-person {
+  .job-title, .degree, .cert-title, .recommendation-person {
     color: $text-color;
     font-size: 15px;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0;
     font-weight: 500;
     flex: 1;
-    white-space: nowrap;
   }
 
-  .time,
-  .cert-url {
+  .time, .cert-url {
     margin-left: auto;
     color: $text-grey;
   }
 
-  .company,
-  .recommendation-role,
-  .university,
-  .cert-org {
+  .company, .recommendation-role, .university, .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
     display: flex;
     align-items: center;
 
-    img.company-logo,
-    img.cert-logo {
-      height: auto;
-      width: auto;
+    img.company-logo, img.cert-logo {
       max-height: 16px;
       max-width: 40px;
       object-fit: contain;
       margin-right: 6px;
-      vertical-align: middle;
     }
   }
 
   .project-title {
     font-size: 16px;
     font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 5px;
+    margin: 0 0 5px;
     color: darken($theme-color, 15%);
   }
 
-  .projects-section {
-    .intro {
-      margin-bottom: 30px;
-    }
-    .item {
-      margin-bottom: 15px;
-    }
-  }
+  .projects-section .intro,
+  .oss-section .intro,
+  .publications-section .intro { margin-bottom: 30px; }
 
-  .oss-section {
-    .intro {
-      margin-bottom: 30px;
-    }
-    .item {
-      margin-bottom: 15px;
-    }
-  }
-
-  .publication-title {
-    font-size: 16px;
-    font-weight: 400;
-    color: $text-color;
-    margin-bottom: 1px;
-  }
-
-  .publication-authors {
-    font-style: italic;
-    color: $text-grey;
-    margin-bottom: 1px;
-  }
-
-  .publications-section {
-    .intro {
-      margin-bottom: 30px;
-    }
-    .item {
-      margin-bottom: 15px;
-    }
-  }
+  .publication-title { font-size: 16px; font-weight: 400; color: $text-color; margin-bottom: 1px; }
+  .publication-authors { font-style: italic; color: $text-grey; margin-bottom: 1px; }
 }
 
 .skillset {
-  .item {
-    margin-bottom: 15px;
-    overflow: hidden;
-  }
-
-  .level-title {
-    font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 12px;
-  }
-
-  .level-bar {
-    height: 12px;
-    background: $smoky-white;
-  }
-
-  .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
-  }
+  .item { margin-bottom: 15px; overflow: hidden; }
+  .level-title { font-size: 14px; margin: 0 0 12px; }
+  .level-bar { height: 12px; background: $smoky-white; }
+  .level-bar-inner { height: 12px; background: lighten($theme-color, 15%); }
 }
 
 .footer {
@@ -338,15 +217,12 @@ p {
     font-size: 13px;
   }
 
-  .fa-heart {
-    color: $heart;
-  }
+  .fa-heart { color: $heart; }
 }
 
-.print-button {
+.print-button, .pdf-button {
   position: fixed;
   top: 20px;
-  right: 120px;
   z-index: 1000;
   background: $theme-color;
   color: #fff;
@@ -355,57 +231,17 @@ p {
   border: none;
   cursor: pointer;
   font-size: 14px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.15);
   transition: all 0.3s ease;
 
   &:hover {
     background: darken($theme-color, 10%);
     transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   }
-
-  &:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .fas {
-    margin-right: 5px;
-  }
+  &:active { transform: translateY(0); box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+  .fas { margin-right: 5px; }
 }
 
-.pdf-button {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 1000;
-  background: $theme-color;
-  color: #fff;
-  padding: 8px 15px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
-  transition: all 0.3s ease;
-
-  &:hover {
-    background: darken($theme-color, 10%);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-
-  &:active {
-    transform: translateY(0);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  &:disabled {
-    opacity: 0.7;
-    cursor: not-allowed;
-  }
-
-  .fas {
-    margin-right: 5px;
-  }
-}
+.print-button { right: 120px; }
+.pdf-button { right: 20px; &:disabled { opacity: 0.7; cursor: not-allowed; } }

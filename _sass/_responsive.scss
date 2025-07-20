@@ -1,21 +1,10 @@
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-  body {
-    padding: 0;
-  }
+  body { padding: 0; }
 
-  .sidebar-wrapper {
-    position: static;
-    width: inherit;
-  }
-
-  .wrapper {
-    display: block;
-  }
-
-  .main-wrapper {
-    padding: 30px;
-  }
+  .sidebar-wrapper { position: static; width: inherit; }
+  .wrapper { display: block; }
+  .main-wrapper { padding: 30px; }
 
   .main-wrapper .time {
     position: static;
@@ -25,31 +14,38 @@
 
   .main-wrapper .upper-row {
     margin-bottom: 0;
-    gap: 4px;
+    gap: 6px;
     align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
   }
 
-  /* Make logos fluid and scale with container */
-  .main-wrapper img.company-logo,
+  /* Logos scale fluidly and center on mobile */
+  .company-logo-wrapper .company-logo,
   .main-wrapper img.cert-logo {
-    width: 30%;            /* Scale relative to container width */
-    max-width: 60px;       /* Upper limit */
-    height: auto;          /* Maintain proportions */
+    display: block;
+    margin: 0 auto 8px auto;
+    width: 40%;
+    max-width: 100px;
+    height: auto;
+    max-height: none;
     object-fit: contain;
-    margin-right: 4px;
-    flex-shrink: 0;
   }
 
   .main-wrapper .job-title {
     font-size: 14px;
     line-height: 1.3;
+    text-align: center;
+    flex: 1 1 100%;
   }
 }
 
 /* Tablets (≥768px) */
 @media (min-width: 768px) {
-  .main-wrapper img.company-logo,
+  .company-logo-wrapper .company-logo,
   .main-wrapper img.cert-logo {
+    display: inline-block;
+    margin: 0 6px 0 0;
     width: auto;
     max-height: 18px;
     max-width: 80px;
@@ -58,26 +54,19 @@
 
   .main-wrapper .job-title {
     font-size: 15px;
+    text-align: left;
   }
+
+  .main-wrapper .upper-row { flex-wrap: nowrap; text-align: left; }
 }
 
 /* Medium desktops (≥992px) */
 @media (min-width: 992px) {
-  .skillset .level-title {
-    float: left;
-    width: 30%;
-    margin-bottom: 0;
-  }
-
-  .skillset .level-bar {
-    width: 70%;
-    float: left;
-    position: relative;
-    top: 1px;
-  }
+  .skillset .level-title { float: left; width: 30%; margin-bottom: 0; }
+  .skillset .level-bar { width: 70%; float: left; position: relative; top: 1px; }
 }
 
-/* Smooth animation */
+/* Smooth animation for skill bars */
 .skillset .level-bar-inner {
   width: auto;
   transition: width 2s ease-in-out;
@@ -85,20 +74,20 @@
 
 /* Large desktops (≥1200px) */
 @media (min-width: 1200px) {
-  .main-wrapper img.company-logo,
+  .company-logo-wrapper .company-logo,
   .main-wrapper img.cert-logo {
-    width: auto;
     max-height: 22px;
     max-width: 100px;
+    width: auto;
   }
 }
 
 /* Extra-large desktops (≥1400px) */
 @media (min-width: 1400px) {
-  .main-wrapper img.company-logo,
+  .company-logo-wrapper .company-logo,
   .main-wrapper img.cert-logo {
-    width: auto;
     max-height: 28px;
     max-width: 120px;
+    width: auto;
   }
 }
