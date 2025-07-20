@@ -1,0 +1,18 @@
+{% assign customers = site.data.data.customers %}
+{% if customers %}
+<div class="customers-container container-block">
+
+  <h2 class="container-block-title">
+    {{ customers.title }}
+  </h2>
+
+  <ul class="list-unstyled customers-logos">
+    {% for customer in customers.info %}
+    <li>
+      <img src="{{ '/assets/img/' | append: customer.logo }}" alt="{{ customer.name }}" class="customer-logo-small">
+    </li>
+    {% endfor %}
+  </ul>
+
+</div><!--//customers-->
+{% endif %}

@@ -276,3 +276,24 @@ skills:
     level: 85%
   - name: Linux & Networking
     level: 90%
+
+
+customers:
+  title: Customers I’ve Worked With
+  info:
+    - name: ADEME
+      logo: ademe-logo.png
+    - name: La Poste
+      logo: laposte-logo.png
+    - name: WilliamReed
+      logo: william-logo.png
+    - name: Direct Industry
+      logo: di-logo.png
+    - name: Teads
+      logo: teads-logo.png
+    - name: ACCOR
+      logo: accor-logo.png
+    - name: Yelloh Village
+      logo: yv-logo.png
+    - name: PLECTO
+      logo: plecto-logo.png
