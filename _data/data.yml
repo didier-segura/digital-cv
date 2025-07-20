@@ -105,82 +105,100 @@ experiences:
     company: Kaliop, France
     logo: kaliop-logo.png
     details: |
-      Designing and optimizing scalable multi-cloud infrastructures (AWS, GCP, Azure, Scaleway).
-        - Defining architecture standards and best practices
-        - Designing Kubernetes clusters with governance
-        - Advanced IaC (Terraform, Ansible, Packer)
-        - Automating deployments (GitOps, ArgoCD, Helm)
-        - Implementing security and compliance (PCI-DSS, IAM)
-        - Cost optimization and performance monitoring (Prometheus, Loki, Grafana, Alloy)
-        - Collaborating with Scaleway for infrastructure optimization
+      Designing and optimizing **scalable multi-cloud infrastructures** (**AWS, GCP, Azure, Scaleway, OVHCloud**).  
+      Building **resilient Kubernetes architectures**, driving **IaC practices** and automation.  
+        - Defined **architecture standards** and **best practices** for enterprise projects  
+        - Designed **multi-cluster Kubernetes** with **governance** and **security controls**  
+        - Advanced **IaC** (**Terraform, Ansible, Packer**) for **repeatable deployments**  
+        - Implemented **GitOps workflows** with **ArgoCD & Helm**  
+        - Strengthened **cloud security & compliance** (**PCI-DSS, IAM**)  
+        - Led **cost optimization and observability** initiatives (**Prometheus, Loki, Grafana, Alloy**)  
+        - Collaborated with **Scaleway** to align **infrastructure optimization** with **provider roadmaps**
+
   - role: Consultant Systems & Network
     time: May 2022 - Dec 2024
     company: Kaliop, France
     logo: kaliop-logo.png
     details: |
-      Leading initiatives in virtualization, monitoring, and Linux/cloud infrastructure.
-        - Infrastructure as Code with Terraform & Ansible
-        - Monitoring with Icinga2, Prometheus, Dynatrace, Newrelic
-        - Kubernetes cluster deployment across AWS, GCP, Azure, Scaleway
-        - Application deployments via ArgoCD and Helm
-        - Building Docker images and AMIs via Packer
+      Led **virtualization**, **monitoring**, and **Linux/cloud modernization** projects.  
+        - Built **Terraform & Ansible-based infrastructure** for multi-cloud  
+        - Deployed **Kubernetes clusters** (AWS, GCP, Azure, Scaleway) for **production workloads**  
+        - Integrated **Dynatrace, NewRelic, Prometheus** for **end-to-end observability**  
+        - Automated **ArgoCD-based CI/CD** pipelines with **Helm charts**  
+        - Created **Docker images** and **Packer-built AMIs** for standardized environments
+
   - role: Infrastructure & Network Manager
     time: Jun 2017 - Apr 2022
     company: Eleawave, France
     logo: eleawave-logo.png
     details: |
-      Managed infrastructure operations, migrations, and compliance.
-        - Migrated platforms to Openstack (OVH Public Cloud)
-        - Ensured PCI-DSS compliance (3.2.1)
-        - Email deliverability expertise (DMARC, DKIM, SPF, S/MIME)
-        - Monitoring via Zabbix, ELK, Prometheus, Grafana
-        - IaC with Chef, Ansible, Packer, Terraform
-        - Led teams and projects (JIRA)
+      Managed **infrastructure migration and compliance programs** for clients.  
+        - Migrated platforms to **OpenStack (OVH Public Cloud)**  
+        - Ensured **PCI-DSS 3.2.1 compliance** for production systems  
+        - Specialized in **email deliverability** (**DMARC, DKIM, SPF, S/MIME**)  
+        - Established **Zabbix, ELK, Prometheus, Grafana** monitoring stacks  
+        - Directed **IaC adoption** with **Chef, Ansible, Terraform**  
+        - Supervised **teams and projects** via **JIRA**
+
   - role: Systems Engineer
     time: Jun 2015 - Jun 2017
     company: Teads, France
     logo: teads-logo.png
     details: |
-      Engineered systems for a global ad platform under AWS.
-        - Infrastructure deployment (EC2, ELB, RDS, VPN)
-        - Jenkins & Rundeck automation
-        - Managed Cassandra and AWS services (Route53, ElastiCache)
-        - Monitoring with Zabbix, Grafana, Graphite
-        - IaC using Chef, Terraform
+      Contributed to **R&D and production operations** for a **global video advertising platform**.  
+        - Designed **Chef 12 cookbooks** for deployment automation  
+        - Automated **Cassandra clusters** (2.0–2.1) with **MESOS, Marathon, Docker**  
+        - Built **Cassandra backup & restore automation** (snapshots, token/IP spoofing)  
+        - Deployed **AWS EC2 clusters** with **Chef provisioning (Zero & centralized)**  
+        - Deployed **Grafana 2/3** stacks (cache layers, aggregators, graphite)  
+        - Built **Zabbix monitoring scripts** for **Cassandra, ElasticSearch, RabbitMQ, RDS, ElastiCache**  
+        - Automated **IaaS provisioning** using **Terraform + Chef** on **AWS**  
+        - Managed **VPN IPSec links** between **AWS & GCP** for hybrid workloads
+
   - role: Technical Project Manager
     time: Apr 2012 - May 2015
     company: Kaliop, France
     logo: kaliop-logo.png
     details: |
-      Led infrastructure projects and migrations.
-        - VMware ESX migrations
-        - Email migration to Gmail
-        - Automation with Puppet
-        - MySQL audits and performance tuning
+      Directed **infrastructure projects** and **enterprise migrations**.  
+        - Migrated **VMware ESX 4 → ESX 5.5** for production platforms  
+        - Oversaw **messaging migration to Gmail** for internal systems  
+        - Conducted **MySQL security and performance audits** across clients  
+        - Delivered **JVM and MySQL tuning** (NFS, APC, Nginx optimizations)  
+        - Led **deployment pipelines** with **Foreman & Puppet automation**  
+        - Supervised **backup migrations** (Veeam 4.x → 7) and **VMware upgrades**
+
   - role: Technical Consultant
     time: Apr 2011 - Feb 2012
     company: KeepCore, France
     logo: keepcore-logo.png
     details: |
-      Provided consulting for Linux and enterprise applications.
-        - Integrated Apache Tomcat & JBoss solutions
-        - Administered CentOS and Debian servers
+      Consulted on **Linux/Java systems** and **enterprise application hosting**.  
+        - Supported **30+ servers** (CentOS, Debian, RedHat) for **client production**  
+        - Performed **MySQL audits** and **JVM tuning** for **Tomcat & JBoss**  
+        - Proposed **infrastructure improvements** and **optimized monitoring stacks** (Cacti, Nagios)  
+        - Delivered **backup strategies**, **capacity planning**, and **retro-engineering reports**
+
   - role: Systems and Network Engineer
     time: Apr 2009 - Apr 2011
     company: PoP-Development, France
     logo: pop-development-logo.png
     details: |
-      Managed large-scale Linux infrastructure.
-        - Administered 100+ Gentoo Linux servers
-        - Managed high-traffic PHP website hosting
+      Oversaw **Linux (Gentoo) infrastructure** for **VirtualExpo (50+ servers)**.  
+        - Supervised **Cisco & Netgear production equipment**  
+        - Implemented **MySQL optimization and replication strategies**  
+        - Managed **Cacti/Nagios monitoring** for production apps  
+        - Led **virtualization migration** to **Xen Citrix on RHEL**
+
   - role: Systems and Network Administrator
     time: Apr 2007 - Mar 2009
     company: Groupe La Poste, France
     logo: laposte-logo.png
     details: |
-      Administered Windows Server and Active Directory environments, managing over 300 workstations and core network infrastructure.
-        - Windows Server 2008/2012 and Active Directory (300+ workstations)
-        - Managed Juniper and Nortel networking equipment
+      Administered **Windows Server 2008/2012 & Active Directory** for **300+ workstations**.  
+        - Migrated **Microsoft Exchange 5.5 → Oracle OCFO**  
+        - Built **PHP/MySQL intranet portals** for user management  
+        - Designed **network monitoring** with **Nortel & Cisco** (NAP/802.1x)
 
 certifications:
   title: Certifications
