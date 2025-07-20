@@ -103,6 +103,7 @@ experiences:
   - role: Cloud Infrastructure Architect
     time: Jan 2025 - Present
     company: Kaliop, France
+    logo: kaliop-logo.png
     details: |
       Designing and optimizing scalable multi-cloud infrastructures (AWS, GCP, Azure, Scaleway).
         - Defining architecture standards and best practices
@@ -115,6 +116,7 @@ experiences:
   - role: Consultant Systems & Network
     time: May 2022 - Dec 2024
     company: Kaliop, France
+    logo: kaliop-logo.png
     details: |
       Leading initiatives in virtualization, monitoring, and Linux/cloud infrastructure.
         - Infrastructure as Code with Terraform & Ansible
@@ -125,6 +127,7 @@ experiences:
   - role: Infrastructure & Network Manager
     time: Jun 2017 - Apr 2022
     company: Eleawave, France
+    logo: eleawave-logo.png
     details: |
       Managed infrastructure operations, migrations, and compliance.
         - Migrated platforms to Openstack (OVH Public Cloud)
@@ -136,6 +139,7 @@ experiences:
   - role: Systems Engineer
     time: Jun 2015 - Jun 2017
     company: Teads, France
+    logo: teads-logo.png
     details: |
       Engineered systems for a global ad platform under AWS.
         - Infrastructure deployment (EC2, ELB, RDS, VPN)
@@ -146,6 +150,7 @@ experiences:
   - role: Technical Project Manager
     time: Apr 2012 - May 2015
     company: Kaliop, France
+    logo: kaliop-logo.png
     details: |
       Led infrastructure projects and migrations.
         - VMware ESX migrations
@@ -155,6 +160,7 @@ experiences:
   - role: Technical Consultant
     time: Apr 2011 - Feb 2012
     company: KeepCore, France
+    logo: keepcore-logo.png
     details: |
       Provided consulting for Linux and enterprise applications.
         - Integrated Apache Tomcat & JBoss solutions
@@ -162,6 +168,7 @@ experiences:
   - role: Systems and Network Engineer
     time: Apr 2009 - Apr 2011
     company: PoP-Development, France
+    logo: pop-development-logo.png
     details: |
       Managed large-scale Linux infrastructure.
         - Administered 100+ Gentoo Linux servers
