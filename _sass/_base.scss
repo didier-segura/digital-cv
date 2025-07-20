@@ -196,21 +196,21 @@ p {
     }
   }
 
-  /* Flex row for logo + job title + time */
+  /* Properly aligned flex row for logo + title + date */
   .upper-row {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
     margin-bottom: 2px;
-    min-height: 24px; /* Avoid collapsing if logos are tiny */
+    min-height: 22px; /* Keeps layout consistent */
   }
 
-  /* Proper scaling for logos */
+  /* Strict logo sizing so they don't overpower titles */
   .company-logo {
-    max-height: 20px;     /* Limit vertical size */
-    max-width: 60px;      /* Prevent very wide logos */
-    object-fit: contain;  /* Keep proportions intact */
-    margin-right: 8px;
+    max-height: 16px;      /* Keeps logos subtle */
+    max-width: 40px;       /* Prevent wide logos from dominating */
+    object-fit: contain;   /* Preserve proportions */
+    margin-right: 6px;
     flex-shrink: 0;
   }
 
@@ -219,11 +219,12 @@ p {
   .cert-title,
   .recommendation-person {
     color: $text-color;
-    font-size: 16px;
+    font-size: 15px;
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
-    flex: 1; /* Take remaining space */
+    flex: 1;
+    white-space: nowrap; /* Avoid wrapping next to logos */
   }
 
   .time,
@@ -243,10 +244,10 @@ p {
 
     img.company-logo,
     img.cert-logo {
-      max-height: 20px;
-      max-width: 60px;
+      max-height: 16px;
+      max-width: 40px;
       object-fit: contain;
-      margin-right: 8px;
+      margin-right: 6px;
       vertical-align: middle;
     }
   }
