@@ -147,7 +147,7 @@ experiences:
     details: |
       Contributed to **R&D and production operations** for a **global video advertising platform**.  
         - Designed **Chef 12 cookbooks** for deployment automation  
-        - Automated **Cassandra clusters** (2.0–2.1) with **MESOS, Marathon, Docker**  
+        - Automated **Cassandra clusters** (2.0–2.1) with **MESOS, Docker**  
         - Built **Cassandra backup & restore automation** (snapshots, token/IP spoofing)  
         - Deployed **AWS EC2 clusters** with **Chef provisioning (Zero & centralized)**  
         - Deployed **Grafana 2/3** stacks (cache layers, aggregators, graphite)  
