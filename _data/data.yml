@@ -276,10 +276,13 @@ skills:
     level: 85%
   - name: Linux & Networking
     level: 90%
-
+  - name: Scripting (Bash, Python)
+    level: 80%
+  - name: Development (Java, PHP, Go)
+    level: 40%
 
 customers:
-  title: Customers
+  title: '<i class="fas fa-building"></i> Customers'
   info:
     - name: ADEME
       logo: ademe-logo.png
