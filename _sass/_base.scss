@@ -196,12 +196,17 @@ p {
     }
   }
 
-  .upper-row,
-  .second-upper-row {
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 2px;
+  /* Updated to handle logo placement before job title */
+  .upper-row {
     display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 2px;
+  }
+
+  .company-logo {
+    height: 28px;
+    flex-shrink: 0;
   }
 
   .job-title,
@@ -213,16 +218,13 @@ p {
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 500;
-    flex: 75%;
+    flex: 1;
   }
 
   .time,
   .cert-url {
-    position: absolute;
-    right: 0;
-    top: 0;
+    margin-left: auto;
     color: $text-grey;
-    flex: 25%;
   }
 
   .company,
@@ -233,6 +235,7 @@ p {
     color: $text-grey;
     display: flex;
     align-items: center;
+
     img.company-logo,
     img.cert-logo {
       height: 20px;

@@ -11,18 +11,19 @@
 
   {% for experience in experiences.info %}
   <div class="item">
-
     <div class="meta">
 
+      <!-- Upper row now includes logo BEFORE job title -->
       <div class="upper-row">
+        {% if experience.logo %}
+          <img class="company-logo" src="{{ '/assets/img/' | append: experience.logo }}" alt="{{ experience.company }}">
+        {% endif %}
         <h3 class="job-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
+      <!-- Company name now below the title -->
       <div class="company">
-        {% if experience.logo %}
-          <img src="{{ '/assets/img/' | append: experience.logo }}" alt="{{ experience.company }}" style="height:30px; vertical-align:middle; margin-right:8px;">
-        {% endif %}
         {{ experience.company }}
       </div>
 
@@ -36,7 +37,5 @@
 
   </div><!--//item-->
   {% endfor %}
-
 </section><!--//section-->
 {% endif %}
-
