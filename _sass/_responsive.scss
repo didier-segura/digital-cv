@@ -28,7 +28,6 @@
     width: 40%;
     max-width: 100px;
     height: auto;
-    max-height: none;
     object-fit: contain;
   }
 
@@ -39,11 +38,11 @@
     flex: 1 1 100%;
   }
 
-  /* Customers logos container: enforce 2 per row */
+  /* Customers logos container: enforce 2 per row on mobile */
   .customers-container .customers-logos {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Always 2 columns */
-    gap: 8px;
+    grid-template-columns: repeat(2, minmax(80px, 1fr)); /* Always 2 per row */
+    gap: 10px;
     justify-items: center;
   }
 
@@ -55,14 +54,14 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 100px; /* Force fixed size */
-    height: 60px;     /* Uniform height */
+    max-width: 120px;
+    height: 60px;
     padding: 6px;
   }
 
   .customers-container .customer-logo-small {
     max-height: 30px;
-    max-width: 80px;
+    max-width: 80%;
     width: auto;
     height: auto;
     object-fit: contain;
@@ -78,7 +77,6 @@
     width: auto;
     max-height: 18px;
     max-width: 80px;
-    height: auto;
   }
 
   .main-wrapper .job-title {
@@ -90,14 +88,13 @@
 
   /* Customers logos: 3 per row on tablets */
   .customers-container .customers-logos {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
     gap: 12px;
   }
 
   .customers-container .customers-logos li {
-    max-width: 120px;
+    max-width: 140px;
     height: 70px;
-    padding: 8px;
   }
 }
 
@@ -108,12 +105,12 @@
 
   /* Customers logos: 4 per row on desktops */
   .customers-container .customers-logos {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
     gap: 16px;
   }
 
   .customers-container .customers-logos li {
-    max-width: 140px;
+    max-width: 160px;
     height: 80px;
   }
 }
@@ -130,7 +127,6 @@
   .main-wrapper img.cert-logo {
     max-height: 22px;
     max-width: 100px;
-    width: auto;
   }
 }
 
@@ -140,6 +136,5 @@
   .main-wrapper img.cert-logo {
     max-height: 28px;
     max-width: 120px;
-    width: auto;
   }
 }
