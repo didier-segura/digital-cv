@@ -3,284 +3,198 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  position: right
+  about: True
+  education: True
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Didier Segura
+  tagline: Cloud Infrastructure Architect
+  avatar: profile.png
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
+  email: contact@didier-segura.fr
+  phone:
+  timezone: Europe/Paris
+  citizenship: France
+  website: https://www.didier-segura.fr/
+  linkedin: didiersegura
+  xing:
+  github: didier-segura
+  telegram:
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  bluesky:
+  twitter:
+  stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  goodreads:
+  mastodon:
+  hackerrank:
+  leetcode:
+  pdf:
 
   languages:
     title: Languages
     info:
     - idiom: English
-      level: Native
-
+      level: Technical
     - idiom: French
-      level: Professional
-
+      level: Native
     - idiom: Spanish
-      level: Professional
+      level: Basic
 
   interests:
     title: Interests
     info:
-    - item: Climbing
+    - item: Cloud Architecture
       link:
-
-
-    - item: Snowboarding
+    - item: Kubernetes & IaC
       link:
-
-
-    - item: Cooking
+    - item: Monitoring & Automation
       link:
-
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Systems and Network Consultant with extensive experience in designing,
+    implementing, and optimizing scalable, secure, and resilient infrastructures
+    across multi-cloud environments (AWS, GCP, Azure, Scaleway). Expert in
+    Kubernetes architecture, Infrastructure as Code (Terraform, Ansible, Packer),
+    GitOps (ArgoCD, Helm), monitoring (Prometheus, Grafana, Loki, Alloy),
+    and cloud security/compliance (PCI-DSS, IAM, network segmentation). Provides
+    technical leadership and collaborates with Scaleway to align architecture
+    and performance with provider capabilities.
+
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: Master's Degree in Administration, Security, and Networks
+    university: Université Montpellier II
+    time: 2006 - 2007
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
+      BAC +5 (Master 2). Specialized in administration, security, and
+      networks with a focus on enterprise-grade systems and IT architecture.
+  - degree: Bachelor's Degree in Computer Science
+    university: Université Montpellier II
+    time: 2004 - 2005
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      BAC +3 (Licence Informatique). Focused on software and systems
+      engineering, distributed systems, and programming.
+  - degree: Advanced Technician's Diploma in Telecommunications Engineering
+    university: IUT Valence
+    time: 2002 - 2004
+    details: |
+      BAC +2 (DUT). Focus on networking, telecom systems, and IT infrastructure.
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Cloud Infrastructure Architect
+    time: Jan 2025 - Present
+    company: Kaliop, France
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Designing and optimizing scalable multi-cloud infrastructures (AWS, GCP, Azure, Scaleway).
+        - Defining architecture standards and best practices
+        - Designing Kubernetes clusters with governance
+        - Advanced IaC (Terraform, Ansible, Packer)
+        - Automating deployments (GitOps, ArgoCD, Helm)
+        - Implementing security and compliance (PCI-DSS, IAM)
+        - Cost optimization and performance monitoring (Prometheus, Loki, Grafana, Alloy)
+        - Collaborating with Scaleway for infrastructure optimization
+  - role: Consultant Systems & Network
+    time: May 2022 - Dec 2024
+    company: Kaliop, France
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Leading initiatives in virtualization, monitoring, and Linux/cloud infrastructure.
+        - Infrastructure as Code with Terraform & Ansible
+        - Monitoring with Icinga2, Prometheus, Dynatrace, Newrelic
+        - Kubernetes cluster deployment across AWS, GCP, Azure, Scaleway
+        - Application deployments via ArgoCD and Helm
+        - Building Docker images and AMIs via Packer
+  - role: Infrastructure & Network Manager
+    time: Jun 2017 - Apr 2022
+    company: Eleawave, France
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Managed infrastructure operations, migrations, and compliance.
+        - Migrated platforms to Openstack (OVH Public Cloud)
+        - Ensured PCI-DSS compliance (3.2.1)
+        - Email deliverability expertise (DMARC, DKIM, SPF, S/MIME)
+        - Monitoring via Zabbix, ELK, Prometheus, Grafana
+        - IaC with Chef, Ansible, Packer, Terraform
+        - Led teams and projects (JIRA)
+  - role: Systems Engineer
+    time: Jun 2015 - Jun 2017
+    company: Teads, France
+    details: |
+      Engineered systems for a global ad platform under AWS.
+        - Infrastructure deployment (EC2, ELB, RDS, VPN)
+        - Jenkins & Rundeck automation
+        - Managed Cassandra and AWS services (Route53, ElastiCache)
+        - Monitoring with Zabbix, Grafana, Graphite
+        - IaC using Chef, Terraform
+  - role: Technical Project Manager
+    time: Apr 2012 - May 2015
+    company: Kaliop, France
+    details: |
+      Led infrastructure projects and migrations.
+        - VMware ESX migrations
+        - Email migration to Gmail
+        - Automation with Puppet
+        - MySQL audits and performance tuning
+  - role: Technical Consultant
+    time: Apr 2011 - Feb 2012
+    company: KeepCore, France
+    details: |
+      Provided consulting for Linux and enterprise applications.
+        - Integrated Apache Tomcat & JBoss solutions
+        - Administered CentOS and Debian servers
+  - role: Systems and Network Engineer
+    time: Apr 2009 - Apr 2011
+    company: PoP-Development, France
+    details: |
+      Managed large-scale Linux infrastructure.
+        - Administered 100+ Gentoo Linux servers
+        - Managed high-traffic PHP website hosting
+  - role: Systems and Network Administrator
+    time: Apr 2007 - Mar 2009
+    company: Groupe La Poste, France
+    details: |
+      Administered systems and network equipment.
+        - Windows Server 2008/2012 and Active Directory (300+ workstations)
+        - Managed Juniper and Nortel networking equipment
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
+  - name: Scaleway Pre-Sales Certification
+    start: 2024
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+    organization: Scaleway
+    credentialid:
+    credentialurl:
+    credentialname: Scaleway
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+      Certification focused on Scaleway cloud solutions, pre-sales expertise,
+      and aligning cloud architecture and performance with client requirements.
 
 skills:
-  title: Skills &amp; Proficiency
-
+  title: Skills & Proficiency
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
+  - name: Terraform, Ansible & Packer
     level: 95%
-
-  - name: Ruby on Rails
+  - name: Kubernetes (AWS, GCP, Azure, Scaleway)
+    level: 90%
+  - name: Prometheus, Grafana, Loki, Alloy
+    level: 90%
+  - name: ArgoCD & Helm (GitOps)
     level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+  - name: Chef, Puppet
+    level: 80%
+  - name: Cloud Security & Compliance (PCI-DSS, IAM)
+    level: 85%
+  - name: Linux & Networking (Juniper, Nortel)
+    level: 85%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
