@@ -203,14 +203,14 @@ skills:
   - name: Terraform, Ansible & Packer
     level: 95%
   - name: Kubernetes (AWS, GCP, Azure, Scaleway, OVHCloud)
-    level: 90%
+    level: 85%
   - name: Prometheus, Grafana, Loki, Alloy, Thanos
     level: 90%
   - name: ArgoCD & Helm (GitOps)
-    level: 90%
+    level: 95%
   - name: Chef, Puppet
-    level: 90%
+    level: 85%
   - name: Cloud Security & Compliance (PCI-DSS, IAM)
     level: 85%
-  - name: Linux & Networking (Juniper, Nortel)
+  - name: Linux & Networking
     level: 90%

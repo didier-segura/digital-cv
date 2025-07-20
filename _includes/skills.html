@@ -17,7 +17,9 @@
       {% assign skill_level = 'width: ' | append: skill.level %}
       {% assign skill_percent = skill.level | replace: '%','' | plus: 0 %}
 
-      {% if skill_percent >= 90 %}
+      {% if skill_percent >= 95 %}
+        {% assign skill_color = '#9b59b6' %}   <!-- Purple for expert skill -->
+      {% elsif skill_percent >= 90 %}
         {% assign skill_color = '#2ecc71' %}   <!-- Green for high skill -->
       {% elsif skill_percent >= 70 %}
         {% assign skill_color = '#f1c40f' %}   <!-- Yellow for medium skill -->
