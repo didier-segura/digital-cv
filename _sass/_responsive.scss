@@ -25,34 +25,36 @@
 
   .main-wrapper .upper-row {
     margin-bottom: 0;
-    gap: 4px; /* Tighter spacing */
+    gap: 4px;
     align-items: center;
   }
 
-  /* Scale down company & cert logos on phones */
+  /* Force logos to shrink on phones */
   .main-wrapper img.company-logo,
   .main-wrapper img.cert-logo {
-    max-height: 12px;
-    max-width: 30px;
+    max-height: 12px !important;
+    max-width: 30px !important;
+    height: auto !important;
+    width: auto !important;
     object-fit: contain;
     margin-right: 4px;
     flex-shrink: 0;
   }
 
-  /* Make titles a bit smaller */
   .main-wrapper .job-title {
     font-size: 14px;
     white-space: nowrap;
   }
 }
 
-/* Small devices (tablets, 768px and up) */
+/* Tablets (≥768px) */
 @media (min-width: 768px) {
-  /* Keep default sizing, but slightly reduce logos on smaller tablets */
   .main-wrapper img.company-logo,
   .main-wrapper img.cert-logo {
     max-height: 14px;
     max-width: 35px;
+    height: auto;
+    width: auto;
   }
 
   .main-wrapper .job-title {
@@ -60,9 +62,8 @@
   }
 }
 
-/* Medium devices (desktops, 992px and up) */
+/* Medium desktops (≥992px) */
 @media (min-width: 992px) {
-  /* Skill bars layout for larger screens */
   .skillset .level-title {
     float: left;
     width: 30%;
@@ -77,18 +78,14 @@
   }
 }
 
-/* Smooth bar animation */
+/* Smooth animation */
 .skillset .level-bar-inner {
   width: auto;
-  -webkit-transition: width 2s ease-in-out;
-  -moz-transition: width 2s ease-in-out;
-  -o-transition: width 2s ease-in-out;
   transition: width 2s ease-in-out;
 }
 
-/* Large devices (large desktops, 1200px and up) */
+/* Large desktops (≥1200px) */
 @media (min-width: 1200px) {
-  /* Keep logos compact even on big screens */
   .main-wrapper img.company-logo,
   .main-wrapper img.cert-logo {
     max-height: 16px;
@@ -96,9 +93,8 @@
   }
 }
 
-/* Extra-large devices (very large desktops, 1400px and up) */
+/* Extra-large desktops (≥1400px) */
 @media (min-width: 1400px) {
-  /* Allow slightly more room but still controlled */
   .main-wrapper img.company-logo,
   .main-wrapper img.cert-logo {
     max-height: 18px;
