@@ -48,22 +48,25 @@ p {
   order: $sidebar-order;
   background: $theme-color;
   color: #fff;
+
   a {
     color: #fff;
   }
+
   .profile-container {
     padding: 30px;
-    //background: darken($theme-color, 10%);
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
   }
+
   .name {
     font-size: 32px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
   }
+
   .tagline {
     color: rgba(256, 256, 256, 0.6);
     font-size: 16px;
@@ -71,18 +74,19 @@ p {
     margin-top: 0;
     margin-bottom: 0;
   }
+
   .profile {
     margin-bottom: 15px;
   }
 
   .avatar {
-    //used for profile image
     max-width: 100px;
     margin-bottom: 15px;
     border: 0px solid #fff;
     border-radius: 100%;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
+
   .contact-list {
     .fas,
     .fab,
@@ -98,9 +102,11 @@ p {
       }
     }
   }
+
   .container-block {
     padding: 30px;
   }
+
   .container-block-title {
     text-transform: uppercase;
     font-size: 16px;
@@ -108,11 +114,13 @@ p {
     margin-top: 0;
     margin-bottom: 15px;
   }
+
   .degree {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 5px;
   }
+
   .education-container {
     .item {
       margin-bottom: 15px;
@@ -132,6 +140,7 @@ p {
       margin-bottom: 0px;
     }
   }
+
   .languages-container {
     .lang-desc {
       color: rgba(256, 256, 256, 0.6);
@@ -164,6 +173,7 @@ p {
   order: $resume-order;
   background: #fff;
   padding: 60px;
+
   .section-title {
     text-transform: uppercase;
     font-size: 20px;
@@ -173,6 +183,7 @@ p {
     margin-top: 0;
     margin-bottom: 20px;
   }
+
   .section {
     margin-bottom: 60px;
   }
@@ -184,6 +195,7 @@ p {
       margin-bottom: 30px;
     }
   }
+
   .upper-row,
   .second-upper-row {
     position: relative;
@@ -191,6 +203,7 @@ p {
     margin-bottom: 2px;
     display: flex;
   }
+
   .job-title,
   .degree,
   .cert-title,
@@ -211,12 +224,21 @@ p {
     color: $text-grey;
     flex: 25%;
   }
+
   .company,
   .recommendation-role,
   .university,
   .cert-org {
     margin-bottom: 10px;
     color: $text-grey;
+    display: flex;
+    align-items: center;
+
+    img.company-logo {
+      height: 20px;
+      margin-right: 8px;
+      vertical-align: middle;
+    }
   }
 
   .project-title {
@@ -226,6 +248,7 @@ p {
     margin-bottom: 5px;
     color: darken($theme-color, 15%);
   }
+
   .projects-section {
     .intro {
       margin-bottom: 30px;
@@ -234,6 +257,7 @@ p {
       margin-bottom: 15px;
     }
   }
+
   .oss-section {
     .intro {
       margin-bottom: 30px;
@@ -249,11 +273,13 @@ p {
     color: $text-color;
     margin-bottom: 1px;
   }
+
   .publication-authors {
     font-style: italic;
     color: $text-grey;
     margin-bottom: 1px;
   }
+
   .publications-section {
     .intro {
       margin-bottom: 30px;
@@ -269,15 +295,18 @@ p {
     margin-bottom: 15px;
     overflow: hidden;
   }
+
   .level-title {
     font-size: 14px;
     margin-top: 0;
     margin-bottom: 12px;
   }
+
   .level-bar {
     height: 12px;
     background: $smoky-white;
   }
+
   .level-bar-inner {
     height: 12px;
     background: lighten($theme-color, 15%);
@@ -286,6 +315,7 @@ p {
 
 .footer {
   padding-top: 30px;
+
   .copyright {
     line-height: 1.6;
     color: $text-color-secondary;
@@ -300,7 +330,7 @@ p {
 .print-button {
   position: fixed;
   top: 20px;
-  right: 120px; // Changed from 20px to make space for the PDF button
+  right: 120px;
   z-index: 1000;
   background: $theme-color;
   color: #fff;
