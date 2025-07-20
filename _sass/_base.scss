@@ -176,32 +176,48 @@ p {
   padding: 30px;
 
   .customers-logos {
-    display: grid;               /* Use grid layout */
-    grid-template-columns: repeat(2, 1fr); /* 2 columns per row */
-    gap: 16px;                   /* Space between logos */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 logos per row */
+    gap: 16px;
     margin: 0;
     padding: 0;
     list-style: none;
-    justify-items: center;       /* Center each logo horizontally */
+    justify-items: center;
 
     li {
       display: flex;
       align-items: center;
       justify-content: center;
+      width: 100%;
     }
 
     .customer-logo-small {
-      max-width: 60px;
-      max-height: 35px;
-      object-fit: contain;
-      opacity: 0.8;
-      transition: opacity 0.2s ease-in-out;
+      max-height: 40px;     /* Uniform height */
+      max-width: 100px;     /* Avoid overflow */
+      width: auto;
+      height: auto;
+      object-fit: contain;  /* Keep proportions */
+      opacity: 0.85;
+      transition: opacity 0.2s ease, transform 0.2s ease;
 
       &:hover {
         opacity: 1;
-        transform: scale(1.1);
+        transform: scale(1.05);
       }
     }
+  }
+}
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+  .customers-container .customers-logos {
+    grid-template-columns: repeat(2, 1fr); /* Stay 2 per row */
+    gap: 12px;
+  }
+
+  .customers-container .customer-logo-small {
+    max-height: 30px;   /* Smaller for phones */
+    max-width: 80px;
   }
 }
 
