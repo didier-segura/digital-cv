@@ -20,7 +20,7 @@
     text-align: center;
   }
 
-  /* Logos scale fluidly and center on mobile */
+  /* Scale company and cert logos in job experience */
   .company-logo-wrapper .company-logo,
   .main-wrapper img.cert-logo {
     display: block;
@@ -37,6 +37,35 @@
     line-height: 1.3;
     text-align: center;
     flex: 1 1 100%;
+  }
+
+  /* Customers logos container: enforce 2 per row */
+  .customers-container .customers-logos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Always 2 columns */
+    gap: 8px;
+    justify-items: center;
+  }
+
+  .customers-container .customers-logos li {
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100px; /* Force fixed size */
+    height: 60px;     /* Uniform height */
+    padding: 6px;
+  }
+
+  .customers-container .customer-logo-small {
+    max-height: 30px;
+    max-width: 80px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
   }
 }
 
@@ -58,12 +87,35 @@
   }
 
   .main-wrapper .upper-row { flex-wrap: nowrap; text-align: left; }
+
+  /* Customers logos: 3 per row on tablets */
+  .customers-container .customers-logos {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .customers-container .customers-logos li {
+    max-width: 120px;
+    height: 70px;
+    padding: 8px;
+  }
 }
 
 /* Medium desktops (≥992px) */
 @media (min-width: 992px) {
   .skillset .level-title { float: left; width: 30%; margin-bottom: 0; }
   .skillset .level-bar { width: 70%; float: left; position: relative; top: 1px; }
+
+  /* Customers logos: 4 per row on desktops */
+  .customers-container .customers-logos {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+  }
+
+  .customers-container .customers-logos li {
+    max-width: 140px;
+    height: 80px;
+  }
 }
 
 /* Smooth animation for skill bars */
