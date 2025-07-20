@@ -22,6 +22,9 @@
 
       <div class="second-upper-row">
         <div class="cert-org">
+          {% if certifications.logo %}
+            <img class="cert-logo" src="{{ '/assets/images/' | append: certifications.logo }}" alt="{{ certifications.organization }}">
+          {% endif %}
           {{ certifications.organization }} {% if certifications.credentialid %}
           ({{ certifications.credentialid }}) {% endif %}
         </div>
