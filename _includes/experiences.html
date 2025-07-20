@@ -13,19 +13,21 @@
   <div class="item">
     <div class="meta">
 
-      <!-- Upper row now includes logo BEFORE job title -->
+      <!-- Logo on its own line (above everything) -->
+      {% if experience.logo %}
+      <div class="company-logo-wrapper">
+        <img class="company-logo" src="{{ '/assets/img/' | append: experience.logo }}" alt="{{ experience.company }}">
+      </div>
+      {% endif %}
+
+      <!-- Job title and date row -->
       <div class="upper-row">
-        {% if experience.logo %}
-          <img class="company-logo" src="{{ '/assets/img/' | append: experience.logo }}" alt="{{ experience.company }}">
-        {% endif %}
         <h3 class="job-title">{{ experience.role }}</h3>
         <div class="time">{{ experience.time }}</div>
       </div><!--//upper-row-->
 
-      <!-- Company name now below the title -->
-      <div class="company">
-        {{ experience.company }}
-      </div>
+      <!-- Company name under title -->
+      <div class="company">{{ experience.company }}</div>
 
     </div><!--//meta-->
 
@@ -34,7 +36,6 @@
       {{ experience.details | markdownify }}
     </div><!--//details-->
     {% endif %}
-
   </div><!--//item-->
   {% endfor %}
 </section><!--//section-->
