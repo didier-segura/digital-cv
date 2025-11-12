@@ -229,8 +229,8 @@ certifications:
   list:
   - name: Microsoft Certified - Azure Fundamentals
     logo: microsoft_logo.jpeg
-    start: October 2025
-    end: October 2027
+    start: November 2025
+    end: November 2027
     organization: Microsoft
     credentialid: 327d7bae452bbcce
     credentialurl: https://learn.microsoft.com/en-us/users/didiersegura-2876/credentials/327d7bae452bbcce
