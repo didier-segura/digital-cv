@@ -294,7 +294,7 @@ certifications:
     organization: Scaleway
     credentialid: 1891582025666084
     credentialurl: scaleway.360learning.com/api/certification/1891582025666084/file.pdf
-    credentialname: Scaleway
+    credentialname: Associate Security & Identity certification
     details: |
       Certification focused on Scaleway security and identity services, IAM,
       and best practices for implementing secure cloud architectures on Scaleway.
