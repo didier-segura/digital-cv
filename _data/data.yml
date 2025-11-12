@@ -224,21 +224,93 @@ experiences:
         - Helped implement **firewalling, VLANs, and access policies** for small-to-medium infrastructures
         - Deployed NetASQ firewalls and configured **VPNs** for secure remote access
 
-
 certifications:
   title: Certifications
   list:
-  - name: Scaleway Pre-Sales Certification
-    logo: scaleway-certification.png
-    start: 2025
-    end:
+  - name: Microsoft Certified - Azure Fundamentals
+    logo: microsoft_logo.jpeg
+    start: October 2025
+    end: October 2027
+    organization: Microsoft
+    credentialid: 327d7bae452bbcce
+    credentialurl: https://learn.microsoft.com/en-us/users/didiersegura-2876/credentials/327d7bae452bbcce
+    credentialname: Microsoft
+    details: |
+      Certification demonstrating foundational knowledge of Microsoft Azure cloud services,
+      core Azure services, pricing, support, and cloud concepts.
+
+  - name: HashiCorp Certified - Terraform Associate (003)
+    logo: hashicorp_logo.jpeg
+    start: October 2025
+    end: October 2026     
+    organization: HashiCorp
+    credentialid: 949583f6-3b85-4480-8467-950f32d16f81
+    credentialurl: https://www.credly.com/badges/949583f6-3b85-4480-8467-950f32d16f81/linked_in_profile
+    credentialname: HashiCorp
+    details: |
+      Certification validating knowledge of Terraform's core concepts,
+      infrastructure as code principles, and best practices for managing cloud infrastructure.
+
+  - name: Scaleway PreSales Partner Certification
+    logo: presales_badge.png
+    start: January 2025
+    end: January 2027
     organization: Scaleway
-    credentialid:
-    credentialurl:
+    credentialid: 2261416666485020
+    credentialurl: https://scaleway.360learning.com/api/certification/2261416666485020/file.pdf
     credentialname: Scaleway
     details: |
       Certification focused on Scaleway cloud solutions, pre-sales expertise,
       and aligning cloud architecture and performance with client requirements.
+
+  - name: Scaleway Foundations Certification
+    logo: foundations_badge.png
+    start: October 2025
+    end: October 2027
+    organization: Scaleway
+    credentialid: 1654747894399457
+    credentialurl: https://scaleway.360learning.com/api/certification/1654747894399457/file.pdf
+    credentialname: Scaleway
+    details: |
+      Certification focused on Scaleway cloud solutions, foundational knowledge,
+      and best practices for designing and implementing cloud architectures.
+
+  - name: Scaleway Associate Kubernetes Certification
+    logo: kubernetes_badge.png
+    start: October 2025
+    end: October 2027
+    organization: Scaleway
+    credentialid: 6223227255020870
+    credentialurl: https://scaleway.360learning.com/api/certification/6223227255020870/file.pdf
+    credentialname: Scaleway
+    details: |
+      Certification focused on Scaleway Kubernetes services, cluster management,
+      and best practices for deploying and operating Kubernetes workloads on Scaleway.
+
+  - name: Scaleway Associate Network certification
+    logo: network_badge.png
+    start: October 2025
+    end: October 2027
+    organization: Scaleway
+    credentialid: 4097157159453127
+    credentialurl: https://scaleway.360learning.com/api/certification/4097157159453127/file.pdf
+    credentialname: Scaleway
+    details: |
+      Certification focused on Scaleway networking services, virtual networks,
+      and best practices for designing and implementing secure and scalable network architectures on Scaleway.
+
+  - name: Scaleway Associate Security & Identity certification
+    logo: security_badge.png
+    start: October 2025
+    end: October 2027
+    organization: Scaleway
+    credentialid: 1891582025666084
+    credentialurl: https://scaleway.360learning.com/api/certification/1891582025666084/file.pdf
+    credentialname: Scaleway
+    details: |
+      Certification focused on Scaleway security and identity services, IAM,
+      and best practices for implementing secure cloud architectures on Scaleway.
+
 
 publications:
   title: Speaking Engagements & Webinars
